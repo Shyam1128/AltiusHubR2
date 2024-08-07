@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskRabbit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "profile">
+        <a href="Profile.html" target="_blank">Profile</a>
+        <br>
+        <a href="taskamangement.html" target="_blank">TaskMangement</a>
+    </div>
+    <h2>User Registration</h2>
+    <form action= "" class="FORM" method="post">
+        <label for="">UserName : </label>
+        <input type="text" id ="username">
+        <br><br>
+        <label for="">Email-ID :</label>
+        <input type="email" id = "email">
+        <br><br>
+        <label for="">PassWord :</label> 
+        <input type="password" id = "password">
+        <br><br><br>
+        <input type="button" value = "Register" id= "submit" onclick="Validate()">
+    </form>
+    <h2>Image Upload Feature</h2>
+    <form action="" class = "FileUpload">
+        <input type="file" name="file" id="file" onchange="previewFile()">
+        <br><br>
+        <input type="submit">
+    </form>
+    <script src = "formValidation.js"></script>
+    <script src = "imagefeature.js"></script>
+</body>
+</html>

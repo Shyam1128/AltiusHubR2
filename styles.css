@@ -1,0 +1,23 @@
+body{
+    background-color: peachpuff;
+}
+.FORM{
+    color : blue;
+    font-size: medium;
+    color: black;
+    text-align: center;
+    border: blue solid;
+}
+.profile{
+    position: relative;
+    left: 1000px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+.FileUpload{
+    color : blue;
+    font-size: medium;
+    color: black;
+    border: blue solid;
+}
